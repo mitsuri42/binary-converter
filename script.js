@@ -1,22 +1,4 @@
-const callStack = [
-  'a(): returns "This " + b()',
-  'b(): returns "is " + c()',
-  'c(): returns "awesome!"'
-];
 
-const a = () => {
-  return "This " + b();
-};
-
-const b = () => {
-  return "is " + c();
-};
-
-const c = () => {
-  return "awesome!";
-};
-
-console.log(a());
 
 const numberInput = document.getElementById("number-input");
 const convertBtn = document.getElementById("convert-btn");
