@@ -1,3 +1,9 @@
+const callStack = [
+  'a(): returns "This " + b()',
+  'b(): returns "is " + c()',
+  'c(): returns "awesome!"'
+];
+
 const a = () => {
   return "This " + b();
 };
